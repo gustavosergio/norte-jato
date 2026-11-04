@@ -1,40 +1,29 @@
 # Norte Jato — landing page
 
-Landing page responsiva em React, TypeScript, Tailwind CSS e Vite.
+React, TypeScript, Tailwind CSS e Vite. Site baseado na marca, nos materiais públicos e no endereço da Norte Jato, no Rosarinho, Recife.
 
-## Desenvolvimento
+## Executar e compilar
 
 ```sh
 npm ci
 npm run dev
-```
-
-## Produção
-
-```sh
 npm run build
-npm run preview
 ```
 
-O build estático fica em `dist/`. O site está publicado no GitHub Pages pela branch `gh-pages`. O código fica na branch `main`. Para atualizar a publicação, gere um novo build e envie o conteúdo de `dist/` para `gh-pages`. O Vite usa caminhos relativos para funcionar em subdiretórios. Um workflow opcional está em `docs/deploy-pages.example.yml`; sua ativação exige permissão de escrita de workflows no GitHub.
+O build fica em `dist/`. Caminhos relativos permitem hospedagem no GitHub Pages em `/norte-jato/`.
 
-## Experiência
+## Conteúdo
 
-- Apresentação, serviços, diferenciais, seleção de serviço, agendamento e perguntas frequentes.
-- Seleção com controles de rádio e mensagem contextual no WhatsApp; nenhuma mensagem é enviada automaticamente.
-- Agenda externa no FilaClick; não há confirmação de reserva dentro da landing page.
-- Animações de entrada, faixa contínua, estados de interação e progresso de leitura.
-- Respeita `prefers-reduced-motion`, permite navegação por teclado e inclui atalho para o conteúdo.
+Dados, contatos, links, serviços e galeria em `src/App.tsx`. Fotos e marca em `public/images/`. A galeria amplia imagens, aceita navegação pelo teclado e oferece links para as publicações de origem. Há mapa, rota no Google Maps, navegação no Waze, FilaClick e mensagem de WhatsApp conforme o serviço escolhido.
 
-## Editar os dados
+As fotos e artes desta versão vieram do perfil público da própria empresa. Consulte `docs/fontes.md` para a origem individual e os dados verificados. As antigas fotos de banco de imagens foram removidas. Fontes tipográficas: Google Fonts, com alternativas locais.
 
-Links de agendamento, Instagram e WhatsApp e a lista de serviços ficam em `src/App.tsx`.
+O site não confirma reservas, envia mensagens ou coleta dados. Os botões abrem os canais externos da empresa. Não há preços nem avaliações inventadas.
 
-O telefone e o horário seguem o briefing fornecido. Fotos locais em `public/images/` são referências ilustrativas do Unsplash, não registros de serviços da Norte Jato. Substitua por fotos autorizadas da empresa antes da versão comercial definitiva. As fontes Barlow Condensed e Manrope são carregadas via Google Fonts, com fontes alternativas disponíveis.
+## Animações e acessibilidade
 
-Fontes das fotos: https://images.unsplash.com/photo-1503376780353-7e6692767b70, https://images.unsplash.com/photo-1607860108855-64acf2078ed9 e https://images.unsplash.com/photo-1507136566006-cfc505b114fc.
+Animações de entrada, faixa contínua, interações e progresso de leitura respeitam `prefers-reduced-motion`. Menu móvel aceita Escape; galeria inclui foco contido, Escape e setas; controles de seleção usam rádios nativos; página inclui atalho para o conteúdo.
 
-## Verificação
+## Publicação
 
-Build de produção validado. Navegação móvel, expansão das perguntas, seleção de serviço, imagens e largura da página conferidas no navegador em celular e computador.
-
+Código na branch `main`; build na branch `gh-pages`. Para atualizar a publicação, gere o build e envie `dist/` para `gh-pages`. O exemplo `docs/deploy-pages.example.yml` permite automatização quando a conexão GitHub tiver a permissão `workflow`.
