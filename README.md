@@ -14,7 +14,7 @@ O build fica em `dist/`. Caminhos relativos permitem hospedagem no GitHub Pages 
 
 ## Conteúdo
 
-Dados, contatos, links, serviços e galeria em `src/App.tsx`. Fotos e marca em `public/images/`. A galeria amplia imagens, aceita navegação pelo teclado e oferece links para as publicações de origem. Há mapa, rota no Google Maps, navegação no Waze, FilaClick e mensagem de WhatsApp conforme o serviço escolhido.
+Dados, contatos, links, serviços e galeria em `src/App.tsx`. Fotos e marca em `public/images/`. A galeria amplia imagens, aceita navegação pelo teclado e oferece links para as publicações de origem. Há mapa, rota no Google Maps, navegação no Waze e mensagem de WhatsApp conforme o serviço escolhido.
 
 As fotos e artes desta versão vieram do perfil público da própria empresa. Consulte `docs/fontes.md` para a origem individual e os dados verificados. As antigas fotos de banco de imagens foram removidas. Fontes tipográficas: Google Fonts, com alternativas locais.
 

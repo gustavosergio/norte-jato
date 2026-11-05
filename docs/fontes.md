@@ -26,3 +26,8 @@ Pesquisa realizada em 04/11/2026. Materiais do perfil público @nortejato acessa
 As capas de reels são apresentadas como imagens, não como vídeos reproduzíveis. As artes de serviços foram preservadas sem alteração, com links para as publicações originais. Não são atribuídos preços, avaliações, depoimentos, garantias ou certificações não verificados.
 
 O Instagram exige login para a leitura detalhada de algumas publicações. A revisão usou as informações e imagens públicas efetivamente disponíveis; não houve acesso a conteúdo restrito.
+
+## Ajustes solicitados em 04/11/2026
+
+A foto fachada-loja.png foi fornecida diretamente pelo cliente para o destaque inicial. Endereço completo, combo proteção e brilho, cristalização de pintura e especialidade em carros alagados foram informados pelo cliente. Os links do FilaClick foram removidos; orçamentos e agendamentos direcionam ao WhatsApp já usado pelo site.
+
